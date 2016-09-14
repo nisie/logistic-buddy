@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context=".MenuActivity"
+        tools:showIn="@layout/activity_menu"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/btn_start_driving"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cards_layout"
+            android:layout_margin="5dp"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:drawablePadding="@dimen/margin_small"
+            android:padding="@dimen/margin_small"
+            android:drawableLeft="@drawable/ic_seqhack_add_button_1"
+            android:text="START DRIVING"/>
+
+        <TextView
+            android:id="@+id/btn_create_order"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cards_layout"
+            android:layout_margin="5dp"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:drawablePadding="@dimen/margin_small"
+            android:padding="@dimen/margin_small"
+            android:drawableLeft="@drawable/ic_seqhack_add_button_1"
+            android:text="ORDER DELIVERY"/>
+
+
+    <TextView
+        android:id="@+id/list_order_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cards_layout"
+        android:layout_margin="5dp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:drawablePadding="@dimen/margin_small"
+        android:padding="@dimen/margin_small"
+        android:drawableLeft="@drawable/ic_seqhack_list_1"
+        android:text="LIST ORDER"/>
+
+    <TextView
+        android:id="@+id/admin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cards_layout"
+        android:layout_margin="5dp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:drawablePadding="@dimen/margin_small"
+        android:padding="@dimen/margin_small"
+        android:drawableLeft="@drawable/ic_seqhack_list_1"
+        android:text="ADMIN"/>
+
+        <TextView
+            android:id="@+id/logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cards_layout"
+            android:layout_margin="5dp"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:drawablePadding="@dimen/margin_small"
+            android:padding="@dimen/margin_small"
+            android:drawableLeft="@drawable/ic_seqhack_logout_1"
+            android:text="LOGOUT"/>
+
+
+
+    </LinearLayout>
